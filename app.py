@@ -1,7 +1,7 @@
 from config import app, db
 from alunos.alunos_routes import alunos_blueprint
-from professors.professors_routes import professors_blueprint
-from turmas.turmas_routes import turmas_blueprint
+from professores.professores_routes import professors_blueprint
+from turmas.turma_routes import turmas_blueprint
 
 # Registrando os blueprints
 app.register_blueprint(alunos_blueprint)
